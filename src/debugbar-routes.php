@@ -4,6 +4,7 @@ $routeConfig = [
     'namespace' => 'Barryvdh\Debugbar\Controllers',
     'prefix' => app('config')->get('debugbar.route_prefix'),
     'domain' => app('config')->get('debugbar.route_domain'),
+    'port' => app('config')->get('debugbar.route_port'),
     'middleware' => [\Barryvdh\Debugbar\Middleware\DebugbarEnabled::class],
 ];
 
