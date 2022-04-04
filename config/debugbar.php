@@ -252,6 +252,17 @@ return [
      | To override default domain, specify it as a non-empty value.
      */
     'route_domain' => null,
+    
+
+    /*
+     |--------------------------------------------------------------------------
+     | DebugBar route port
+     |--------------------------------------------------------------------------
+     |
+     | By default DebugBar route served from the same port that request served.
+     | To override default port, specify it as a non-empty value.
+     */
+    'route_port' => null,    
 
     /*
      |--------------------------------------------------------------------------
